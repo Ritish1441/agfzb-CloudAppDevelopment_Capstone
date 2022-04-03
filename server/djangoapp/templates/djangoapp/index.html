@@ -14,9 +14,22 @@
 </head>
 
     <body>
-    <!-- Remove this line the first time you edit this file -->
-     This is the index page of your Django app!
-    <!--Add a nav bar here -->
+        <br>
+        <div class="container">
+            <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button-primary" class="navbar-brand">
+                    navbar-default
+                </button>
+                <a class="navbar-brand" href="/">Social Network</a>
+            </div>
+            </div><!--/.container-fluid -->
+          </nav>
+        </div>
+        {% block body %}
+            <h3>Base</h3>
+        {% endblock %}
 
     <!--Add a dealer table here -->
 
