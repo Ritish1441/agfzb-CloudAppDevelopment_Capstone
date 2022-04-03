@@ -964,3 +964,9 @@ table#change-history tbody th {
 .popup #header {
     padding: 10px 20px;
 }
+
+.container {
+    background: #eac656;
+    margin: 10 10 10 10;
+    border: 3px solid black;
+}
